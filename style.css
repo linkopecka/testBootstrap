@@ -12,7 +12,7 @@ body {
 .header {
   padding: 110px;
   text-align: center;
-  background-image: url("./images/landscape.jpg");
+  background-image: url("./images/landscape-test-css.jpg"); /* otázka 10 */
 }
 
 /* Increase the font size of the heading */
@@ -23,7 +23,7 @@ body {
 /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: darkblue; /* otázka 8 */
   position: sticky;
   top: 0;
 }
@@ -45,14 +45,14 @@ body {
 
 /* Change color on hover */
 .navbar a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: red; /* otázka 6 */
+  color: white; /* otázka 6 */
 }
 
 /* Active/current link */
 .navbar a.active {
-  background-color: #666;
-  color: white;
+  background-color: yellow; /* otázka 7 */
+  color: black; /* otázka 7 */
 }
 
 /* Column container */
@@ -64,8 +64,9 @@ body {
 /* Sidebar/left column */
 .side {
   flex: 30%;
-  background-color: #f1f1f1;
+  background-color: black; /* otázka 9 */
   padding: 20px;
+  color: white; /* otázka 9 */
 }
 
 /* Main column */
@@ -83,17 +84,17 @@ body {
 
 /* Center the text */
 .footer p {
-  text-align: center;
+  text-align: right; /* otázka 5 */
   font-size: 14px;
   color: #d8d8d8;
 }
 
 /* Basic styles for the post */
 .post {
-  margin-bottom: 20px;
+  margin-bottom: 40px; /* otázka 4 */
   padding: 20px;
-  background-color: #fff;
-  border: 1px solid #ccc;
+  background-color: gray; /* otázka 1 */
+  border: 5px solid red; /* otázka 2 */ /* otázka 3 */
 }
 
 /* Styles for the post heading */
